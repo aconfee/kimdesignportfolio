@@ -1,0 +1,21 @@
+.font-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+}
+
+.font-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #807F7F;
+}
+
+.font-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.78px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

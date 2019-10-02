@@ -1,0 +1,56 @@
+#andpeonies-page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#andpeonies-page-container
+.content-container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 500px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+#andpeonies-page-container
+.content-container
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#andpeonies-page-container
+.title {
+    justify-self: center;
+}
+
+#andpeonies-page-container
+.subtitle {
+    justify-self: start;
+}
+
+#andpeonies-page-container
+.text {
+    justify-self: start;
+}
+
+#andpeonies-page-container
+#back-to-work {
+    justify-self: center;
+    margin-top: 50px;
+    transition: color 0.2s;
+}
+
+#andpeonies-page-container
+#back-to-work:hover {
+    color: black;
+}
+
+#andpeonies-page-container
+.content-container
+.image-margin {
+    margin-bottom: 30px;
+}

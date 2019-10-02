@@ -1,36 +1,72 @@
-.image-link-row {
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-direction: column;
-  flex-direction: column;
+#home-page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
-.image-left {
-  margin-right: 0;
+#home-page-container
+.content-container {
+  display: grid;
+  grid-row-gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 500px;
+  padding-right: 140px;
+  padding-left: 140px;
 }
 
-.image-right {
-  margin-left: 0;
-  margin-top: 15px;
+#home-page-container
+.content-container
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
-@media only screen and (min-width: 1000px) {
-  .image-link-row {
-    -webkit-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .image-left {
-    margin-right: 10px;
-  }
-
-  .image-right {
-    margin-left: 10px;
-    margin-top: 0;
-  }
+#home-page-container
+.content-container
+.link-content {
+  position: relative;
 }
 
-.instagram-feed-container {
-  margin-top: 100px;
+#home-page-container
+.content-container
+.overlay {
+  display: grid;
+  background-color: #E8CDCD;
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  top: 0;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+}
+
+#home-page-container
+.content-container
+.overlay:hover {
+  opacity: 0.8;
+}
+
+#home-page-container
+.content-container
+.overlay
+.project-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 70px;
+  justify-self: center;
+  align-self: end;
+  margin: 0 0 10px 0;
+}
+
+#home-page-container
+.content-container
+.overlay
+.project-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  justify-self: center;
+  align-self: start;
+  margin: 0;
 }
