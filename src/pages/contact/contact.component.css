@@ -1,0 +1,21 @@
+#contact-page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#contact-page-container
+.content-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 500px;
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+#contact-page-container
+.email {
+  align-self: center;
+  justify-self: center;
+}

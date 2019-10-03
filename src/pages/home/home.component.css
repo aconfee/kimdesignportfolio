@@ -33,9 +33,8 @@ img {
 .content-container
 .overlay {
   display: grid;
-  background-color: #E8CDCD;
-  opacity: 0;
-  transition: opacity 0.2s;
+  background: rgba(248, 248, 248, 0);
+  transition: background 0.2s;
   position: absolute;
   top: 0;
   bottom: 4px;
@@ -46,14 +45,31 @@ img {
 #home-page-container
 .content-container
 .overlay:hover {
-  opacity: 0.8;
+  background: rgba(248, 248, 248, 0.6);
+}
+
+#home-page-container
+.content-container
+.overlay-content {
+  display: grid;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: white;
+  margin: 100px 275px;
+  text-align: center;
+}
+
+#home-page-container
+.content-container
+.overlay:hover > .overlay-content {
+  opacity: 1;
 }
 
 #home-page-container
 .content-container
 .overlay
 .project-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Cardo', serif;
   font-size: 70px;
   justify-self: center;
   align-self: end;

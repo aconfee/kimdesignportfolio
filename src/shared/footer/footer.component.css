@@ -27,6 +27,7 @@
 #description-contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -36,16 +37,41 @@
 #footer-container
 #description-contact-container
 .description-text {
+  font-family: 'Cardo', serif;
+  font-size: 28px;
   display: inline-block;
   align-self: center;
 }
 
 #footer-container
 #description-contact-container
+.description-text
+p {
+  margin: 0;
+}
+
+#footer-container
+#description-contact-container
+.description-text
+#you-likey {
+  font-weight: 400;
+}
+
+#footer-container
+#description-contact-container
+.description-text
+#hire-me {
+  font-weight: 500;
+  font-style: italic;
+}
+
+#footer-container
+#description-contact-container
 .contact-text {
   display: inline-block;
-  font-size: 3em;
+  font-size: 56px;
   align-self: center;
+  border-bottom: 4px solid black;
 }
 
 #footer-container
@@ -53,6 +79,8 @@
   position: absolute;
   left: 140px;
   bottom: 65px;
+  color: #707070;
+  font-size: 12px;
 }
 
 #footer-container
@@ -63,4 +91,48 @@
   position: absolute;
   right: 140px;
   bottom: 65px;
+}
+
+#footer-container
+.social-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  transition: background 0.2s;
+}
+
+#footer-container
+.social-icon.linkedin {
+  background: transparent url('icon-linkedin-2x.png') no-repeat padding-box;
+  background-size: contain;
+}
+
+#footer-container
+.social-icon.linkedin:hover {
+  background: transparent url('icon-linkedin-hover-2x.png') no-repeat padding-box;
+  background-size: contain;
+}
+
+#footer-container
+.social-icon.dribbble {
+  background: transparent url('icon-dribbble-2x.png') no-repeat padding-box;
+  background-size: contain;
+}
+
+#footer-container
+.social-icon.dribbble:hover {
+  background: transparent url('icon-dribbble-hover-2x.png') no-repeat padding-box;
+  background-size: contain;
+}
+
+#footer-container
+.social-icon.behance {
+  background: transparent url('icon-behance-2x.png') no-repeat padding-box;
+  background-size: contain;
+}
+
+#footer-container
+.social-icon.behance:hover {
+  background: transparent url('icon-behance-hover-2x.png') no-repeat padding-box;
+  background-size: contain;
 }

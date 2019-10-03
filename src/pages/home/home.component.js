@@ -14,8 +14,10 @@ function Home() {
           <div className="link-content">
             <img src={formatPublicResourcePath("theCloverleaf.png")} alt="The Cloverleaf branding project cover." />
             <div className="overlay">
-              <p className="project-title">The Clover Leaf</p>
-              <p className="project-subtitle">UI, Illustration, Visual Design, Marketing Collateral</p>
+              <div className="overlay-content">
+                <p className="project-title">The Clover Leaf</p>
+                <p className="project-subtitle">UI, Illustration, Visual Design, Marketing Collateral</p>
+              </div>
             </div>
           </div>
         </a>
@@ -23,8 +25,10 @@ function Home() {
           <div className="link-content">
             <img src={formatPublicResourcePath("andPeonies.png")} alt="And Peonies branding project cover." />
             <div className="overlay">
-              <p className="project-title">& PEONIES</p>
-              <p className="project-subtitle">UI, Illustration, Visual Design, Marketing Collateral</p>
+              <div className="overlay-content">
+                <p className="project-title">& PEONIES</p>
+                <p className="project-subtitle">Branding Design, Typography</p>
+              </div>
             </div>
           </div>
         </a>

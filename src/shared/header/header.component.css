@@ -36,17 +36,17 @@ img {
 #header-container
 #links-container
 .link {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    color: black;
-    transition: color 0.2s;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  color: #C0B5B1;
+  transition: color 0.2s;
 }
 
 #header-container
 #links-container
 .link:hover {
-    color: #707070
+    color: black;
 }
 
 #header-container
@@ -78,5 +78,5 @@ a {
 #header-container
 #links-container
 .link.active {
-    text-decoration: underline;
+    color: black;
 }
