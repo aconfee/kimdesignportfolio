@@ -12,7 +12,7 @@ function Home() {
       <div className="content-container">
         <a href="/cloverleaf">
           <div className="link-content">
-            <img src={formatPublicResourcePath("theCloverleaf.png")} alt="The Cloverleaf branding project cover." />
+            <img src={formatPublicResourcePath("theCloverLeaf.png")} alt="The Cloverleaf branding project cover." />
             <div className="overlay">
               <div className="overlay-content">
                 <p className="project-title">The Clover Leaf</p>
