@@ -1,0 +1,39 @@
+#project-header-container {
+    display: grid;
+    grid-template-columns: 10% auto 15%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.2s;
+    grid-template-columns: 5% 80% 15%
+}
+
+#project-header-container
+#home {
+    justify-self: start;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#project-header-container
+#home
+img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+#project-header-container
+#all-projects {
+    justify-self: end;
+    align-self: center;
+    margin-right: 10px;
+}
+
+#project-header-container
+.link-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}

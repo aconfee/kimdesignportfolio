@@ -7,7 +7,7 @@
 .content-container {
   display: grid;
   grid-row-gap: 50px;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 500px;
