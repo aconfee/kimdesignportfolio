@@ -33,17 +33,17 @@ class ProjectHeader extends Component {
                 </div>
                 <div></div>
                 <div className="link-container">
-                    <div>
+                    <div className="link">
                         <a href="/">
                             <div>WORK</div>
                         </a>
                     </div>
-                    <div>
+                    <div className="link">
                         <a href="/contact">
                             <div>CONTACT</div>
                         </a>
                     </div>
-                    <div>
+                    <div className="link">
                         <a href="http://bit.ly/2oGL1Ru">
                             <div>RESUME</div>
                         </a>

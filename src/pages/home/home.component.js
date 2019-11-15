@@ -8,7 +8,7 @@ const PUBLIC_ASSETS_ROOT = "./public_home"
 function Home() {
   return (
     <div id="home-page-container">
-      { Header() }  
+      { Header() }
       <div className="content-container">
         <a href="/cloverleaf">
           <div className="link-content">

@@ -55,3 +55,27 @@ img {
     grid-template-columns: 5% auto 30%
   }
 }
+
+@media only screen and (max-width: 1050px) {
+  #project-header-container {
+    grid-template-columns: 5% auto 50%;
+    justify-items: end;
+  }
+
+  #project-header-container
+  .link-container {
+    grid-template-columns: 1fr;
+  }
+
+  #project-header-container
+  .link-container
+  .link:nth-of-type(odd) {
+    display: none;
+  }
+
+  #project-header-container
+  .link-container
+  .link:nth-of-type(even) {
+    margin-right: 15px;
+  }
+}

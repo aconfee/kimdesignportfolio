@@ -81,6 +81,59 @@ a {
   color: black;
 }
 
+#header-container
+.hamburger {
+  position: absolute;
+  top: -2em;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+#header-container
+.hamburger
+#links-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+}
+
+#header-container
+.hamburger
+#links-container
+.link {
+  margin: 0;
+}
+
+#header-container
+.hamburger
+#the-burger {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  z-index: 10000000;
+}
+
+#header-container
+.hamburger
+#the-burger:hover {
+  cursor: pointer;
+}
+
+#header-container
+.hamburger
+#the-burger
+img {
+  width: 40px;
+  height: 40px;
+}
+
 @media only screen and (max-width: 1200px) {
   #header-container {
     padding-left: 30px;
@@ -104,4 +157,4 @@ a {
   #links-container {
     justify-self: center;
   }
-}
+} 
