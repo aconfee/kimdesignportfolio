@@ -14,17 +14,19 @@ function Footer() {
             <div className="contact-text">Contact</div>
           </a>
         </div>
-        <div className="copyright">All content &copy; { new Date().getFullYear() } Kim Greenough, all rights reserved.</div>
-        <div className="social-icons">
-          <a href="https://www.linkedin.com/in/kimgreenough/">
-            <div className="social-icon linkedin"></div>
-          </a>
-          <a href="https://dribbble.com/kimbyarting">
-            <div className="social-icon dribbble"></div>
-          </a>
-          <a href="https://www.behance.net/kimbyartinc5ac">
-            <div className="social-icon behance"></div>
-          </a>
+        <div id="social-copyright-container">
+          <div className="social-icons">
+            <a href="https://www.linkedin.com/in/kimgreenough/">
+              <div className="social-icon linkedin"></div>
+            </a>
+            <a href="https://dribbble.com/kimbyarting">
+              <div className="social-icon dribbble"></div>
+            </a>
+            <a href="https://www.behance.net/kimbyartinc5ac">
+              <div className="social-icon behance"></div>
+            </a>
+          </div>
+          <div className="copyright">All content &copy; { new Date().getFullYear() } Kim Greenough, all rights reserved.</div>
         </div>
       </div>
     </div>

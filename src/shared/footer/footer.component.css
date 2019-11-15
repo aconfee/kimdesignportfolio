@@ -5,8 +5,6 @@
   position: absolute;
   height: 400px;
   background-color: #F0F1EE;
-  padding-right: 140px;
-  padding-left: 140px;
   margin: 0 auto;
 }
 
@@ -18,8 +16,6 @@
   height: 400px;
   background-color: #F0F1EE;
   max-width: 1200px;
-  padding-right: 140px;
-  padding-left: 140px;
   margin: 0 auto;
 }
 
@@ -27,11 +23,13 @@
 #description-contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: none;
   grid-column-gap: 50px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 120px;
+  margin-top: 75px;
+  text-align: start;
 }
 
 #footer-container
@@ -75,10 +73,20 @@ p {
 }
 
 #footer-container
-.copyright {
+#social-copyright-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   position: absolute;
-  left: 140px;
-  bottom: 65px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  justify-items: center;
+  align-items: center;
+}
+
+#footer-container
+.copyright {
   color: #707070;
   font-size: 12px;
 }
@@ -88,9 +96,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
-  position: absolute;
-  right: 140px;
-  bottom: 65px;
 }
 
 #footer-container
@@ -135,4 +140,28 @@ p {
 .social-icon.behance:hover {
   background: transparent url('icon-behance-hover-2x.png') no-repeat padding-box;
   background-size: contain;
+}
+
+@media only screen and (max-width: 1050px) {
+  #footer-container
+  #description-contact-container {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    grid-row-gap: 1em;
+    position: absolute;
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  #footer-container
+  #description-contact-container
+  .description-text {
+    font-size: 1.5em;
+  }
+
+  #footer-container
+  #description-contact-container
+  .contact-text {
+    font-size: 3em;
+  }
 }
