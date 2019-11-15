@@ -11,8 +11,6 @@
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 500px;
-  padding-right: 140px;
-  padding-left: 140px;
 }
 
 #home-page-container
@@ -70,7 +68,7 @@ img {
 .overlay
 .project-title {
   font-family: 'Cardo', serif;
-  font-size: 70px;
+  font-size: 3em;
   justify-self: center;
   align-self: end;
   margin: 0 0 10px 0;
@@ -81,8 +79,48 @@ img {
 .overlay
 .project-subtitle {
   font-family: "Open Sans", sans-serif;
-  font-size: 42px;
+  font-size: 2em;
   justify-self: center;
   align-self: start;
   margin: 0;
+}
+
+@media only screen and (max-width: 1350px) {
+  #home-page-container
+  .content-container
+  .overlay
+  .project-subtitle {
+    font-size: 1.5em;
+  }
+
+  #home-page-container
+  .content-container
+  .overlay-content {
+    margin: 50px 130px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #home-page-container
+  .content-container {
+    max-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #home-page-container
+  .content-container {
+    grid-row-gap: 0;
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 395px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #home-page-container
+  .content-container
+  .overlay {
+    display: none;
+  }
 }

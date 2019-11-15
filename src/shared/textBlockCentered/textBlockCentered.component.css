@@ -1,26 +1,45 @@
 #text-block-centered-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-self: center;
-    width: 70%;
-    max-width: 70%;
-    text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-self: center;
+  width: 70%;
+  max-width: 70%;
+  text-align: center;
 }
 
 #text-block-centered-container
 .font-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5em;
-    letter-spacing: 4px;
-    margin-bottom: 50px;
-    font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+  font-weight: bold;
 }
 
 #text-block-centered-container
 .font-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.125em;
-    letter-spacing: 2px;
-    line-height: 1.75em;
-    white-space: pre-line;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+  letter-spacing: 2px;
+  line-height: 1.75em;
+  white-space: pre-line;
+}
+
+@media only screen and (max-width: 700px) {
+  #text-block-centered-container {
+    width: 90%;
+    max-width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #text-block-centered-container
+  .font-title {
+    font-size: 1.5em;
+  }
+
+  #text-block-centered-container
+  .font-text {
+    font-size: 1em;
+  }
 }

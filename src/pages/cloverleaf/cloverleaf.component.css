@@ -7,18 +7,7 @@
 .content-container {
     display: grid;
     grid-row-gap: 32px;
-    /* max-width: 1200px; */
     margin: 0 auto;
-    /* padding-top: 50px;
-    padding-bottom: 500px;
-    padding-right: 140px;
-    padding-left: 140px; */
-}
-
-#cloverleaf-page-container
-.content-container
-p {
-  /* margin: 0; */
 }
 
 #cloverleaf-page-container
