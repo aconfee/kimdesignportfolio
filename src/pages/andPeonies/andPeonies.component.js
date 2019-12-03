@@ -4,14 +4,16 @@ import '../../shared/styels/shared.css';
 import Footer from '../../shared/footer/footer.component';
 import TextBlockCentered from '../../shared/textBlockCentered/textBlockCentered.component';
 import TextBlockFull from '../../shared/textBlockFull/textBlockFull.component';
-import ProjectHeader from '../../shared/projectHeader/projectHeader.component';
+// import ProjectHeader from '../../shared/projectHeader/projectHeader.component';
+import Header from '../../shared/header/header.component';
 
 const PUBLIC_ASSETS_ROOT = "./public_andpeonies";
 
 function AndPeonies() {
     return (
         <div id="andpeonies-page-container">
-            <ProjectHeader />
+            {/* <ProjectHeader /> */}
+            { Header() }
             <div className="content-container">
                 <img src={formatPublicResourcePath("cover.png")} alt="And peonies cover."/>
                 {TextBlockCentered(

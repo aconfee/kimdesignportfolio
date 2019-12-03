@@ -17,7 +17,7 @@ function Header() {
   const [showBurgerMenu, setShowBurgerMenu] = useState(false);
 
   const renderHamburger = () => {
-    if(width >= 850) return null;
+    if(width >= 950) return null;
 
     return (
       <div className="hamburger">
@@ -40,7 +40,7 @@ function Header() {
   };
 
   const renderLinks = () => {
-    if(width < 850) return null;
+    if(width < 950) return null;
 
     return (
       <div id="links-container">
