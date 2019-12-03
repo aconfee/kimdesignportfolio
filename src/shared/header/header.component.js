@@ -64,7 +64,7 @@ function Header() {
 
       <div id="logo-container">
         <a href="/">
-          <img src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Site logo." />
+          <img src="./logo.png" alt="Site logo." />
         </a>
       </div>
 

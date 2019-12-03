@@ -27,9 +27,9 @@ class ProjectHeader extends Component {
         return (
             <div id='project-header-container' style={ {backgroundColor: this.state.showBackground ? "rgba(255,255,255,1)" : "rgba(255,255,255,0)"} }>
                 <div id="home">
-                    <a href="/">
+                    {/* <a href="/">
                         <img src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Back button." />
-                    </a>
+                    </a> */}
                 </div>
                 <div></div>
                 <div className="link-container">
